@@ -148,7 +148,7 @@ header {
   background-color: white;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
   border-radius: 12px;
-  padding: 20px;
+  padding: 20px; 
   max-width: 300px;
 }
 .review h2 {
@@ -177,22 +177,32 @@ header {
   /* width: 528px; */
 }
 input[type="text"] {
-  height: 70px;
-  width: 500px;
+  height: 50%;
+  width: 100%;
   padding: 12px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 input[type="email"] {
-  height: 70px;
-  width: 500px;
+  height: 50%;
+  width: 100%;
   padding: 12px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 textarea {
-  height: 135px;
-  width: 500px;
+  height: 50%;
+  width: 100%;
   padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
-form p {
+form label {
   font-weight: bold;
+  display: block;
 }
 .get-button {
   background: #4E47FF;

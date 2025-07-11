@@ -72,7 +72,7 @@ header {
 }
 
 .preview-text h2 {
-  font-size: 1.8rem;
+  font-size: 48px;
   margin-bottom: 10px;
 }
 
@@ -91,6 +91,8 @@ header {
   font-weight: bold;
   border-radius: 6px;
   cursor: pointer;
+  width: 229px;
+  height: 48px;
 }
 .preview-image img {
   max-width: 100%;
@@ -153,4 +155,53 @@ header {
 }
 .date{
   color: #B3B3B3;
+}
+.bgc {
+  background-color: #f8f9fd;
+}
+.login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login h1 {
+  font-size: 98px;
+  font-weight: bolder;
+  /* height: 232px; */
+  /* width: 528px; */
+}
+input[type="text"] {
+  height: 70px;
+  width: 500px;
+  padding: 12px;
+}
+input[type="email"] {
+  height: 70px;
+  width: 500px;
+  padding: 12px;
+}
+textarea {
+  height: 135px;
+  width: 500px;
+  padding: 12px;
+}
+form p {
+  font-weight: bold;
+}
+.get-button {
+  background: #4E47FF;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  width: 500px;
+  height: 62px;
+}
+form {
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }

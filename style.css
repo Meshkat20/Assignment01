@@ -22,6 +22,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1140px;
+  margin: auto;
+  padding: 0 20px;
 }
 .Logo {
   font-weight: bolder;
@@ -41,12 +44,15 @@ header {
 .banner {
   text-align: center;
   padding: 100px 20px 50px;
+  font-weight: bold;
+  max-width: 907px;
+  margin: auto;
 }
 
 .banner h1 {
-  font-size: 2.5rem;
+  font-size: 65px;
   margin-bottom: 20px;
-  font-weight: normal;
+  font-weight: bold;
 }
 .primary-btn {
   background: #4E47FF;
@@ -197,11 +203,44 @@ form p {
   font-weight: bold;
   cursor: pointer;
   width: 100%;
-  width: 500px;
+  width: 530px;
   height: 62px;
 }
 form {
   align-items: center;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+footer {
+  background: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+  border-top: 1px solid #eee;
+}
+
+.logo-footer {
+  color: #4E47FF;
+  font-weight: bold;
+  font-size: 100px;
+  margin-bottom: 15px;
+}
+
+footer p {
+  max-width: 600px;
+  margin: auto;
+  color: #8987A1;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #898989;
+  font-weight: 500;
 }
